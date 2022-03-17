@@ -30,14 +30,14 @@ return r;
 }
 public static void main(String[] args) {
 
-int i,n=20,f1,f2;
+int i,n=40,f1,f2;
 System.out.print("n\tIterative\tRecursive\n");
 System.out.print("**\t*********\t*********\n");
 long start_time,end_time;
 int dif1,dif2;
 
-//loop from 10 to 40
-for(i=10;i<=n;i++) 
+//loop from 20 to 40
+for(i=20;i<=n;i++) 
 {
 //initial time for iterative method
 start_time = System.nanoTime(); 
